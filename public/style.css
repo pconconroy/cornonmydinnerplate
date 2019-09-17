@@ -1,5 +1,10 @@
 body {
   font-family: sans-serif;
+  background-image: url('./assets/45074573_439494646579354_3136312680067891200_n.jpg');
+  background-attachment: fixed;
+  background-position: center;
+
+  min-height: 100%;
 }
 
 a {
@@ -18,4 +23,245 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+/* .siteContainer {
+  position: fixed;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/45074573_439494646579354_3136312680067891200_n.jpg');
+  background-size: 1500px;
+  background-position: center;
+  background-size: cover;
+} */
+.menu {
+  position: fixed;
+  left: 0px;
+  top: 30%;
+}
+/* .cb-slideshow,
+.cb-slideshow:after {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: 0px;
+  z-index: 0;
+}
+.cb-slideshow:after {
+  content: '';
+  background: transparent repeat top left;
+}
+.cb-slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: initial;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 36s linear infinite 0s;
+}
+.cb-slideshow li:nth-child(1) span {
+  background-image: url(https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/44942019_439494683246017_3518481898017914880_n.jpg?_nc_cat=106&_nc_ht=scontent.fapa1-1.fna&oh=c3410e243c245efb8b81c7eb570f4a3e&oe=5CE0972B);
+}
+.cb-slideshow li:nth-child(2) span {
+  background-image: url(https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/45074573_439494646579354_3136312680067891200_n.jpg?_nc_cat=103&_nc_ht=scontent.fapa1-1.fna&oh=435d8912fc58489d6e501bc460291b2e&oe=5CE12EFE);
+  animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) span {
+  background-image: url(https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/45023177_439494603246025_8658338650632749056_n.jpg?_nc_cat=104&_nc_ht=scontent.fapa1-2.fna&oh=7b2137f63b40e6f8cd766fbcc5cea2fe&oe=5D206FBB);
+  animation-delay: 12s;
+}
+.cb-slideshow li:nth-child(4) span {
+  background-image: url(https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/45401797_442050232990462_1693100619461558272_n.jpg?_nc_cat=105&_nc_ht=scontent.fapa1-2.fna&oh=a5ed2a52e7a092b86054be268a36eb64&oe=5CE69110);
+  animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(5) span {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZ62WORZVde_UDn1TxN2dmBpH0H2VbKvaEZWlxVuvO1SO7ccN);
+  animation-delay: 24s;
+}
+.cb-slideshow li:nth-child(6) span {
+  background-image: url(http://fastml.com/images/wallpapers/sunset.jpg);
+  animation-delay: 30s;
+}
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+/* .Menu {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+
+  background-color: #582405;
+} */
+.Menu .ui.vertical.text.menu {
+  background-color: rgba(35, 37, 2, 0.61);
+  text-align: center;
+}
+.Menu .ui.vertical.text.menu .ui.button {
+  width: 100%;
+  height: 50 !important;
+  background-color: rgba(35, 37, 2, 0.61);
+  color: white;
+}
+.Menu .ui.vertical.text.menu .ui.button:hover {
+  background-color: yellow;
+  color: black;
+}
+.Menu .ui.vertical.text.menu button {
+  background-color: yellow;
+  opacity: 0.7;
+  border-radius: 4px;
+}
+
+.ui.text.menu .header.item {
+  color: white !important;
+}
+/* .about-page {
+  background-color: rgba(35, 37, 2, 0.61);
+  color: white;
+  z-index: 2;
+  width: 30%;
+  height: 70%;
+  margin: auto;
+} */
+#background {
+  /* background-image: url('https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/44942019_439494683246017_3518481898017914880_n.jpg?_nc_cat=106&_nc_ht=scontent.fapa1-1.fna&oh=c3410e243c245efb8b81c7eb570f4a3e&oe=5CE0972B'); */
+  width: 100%;
+  height: 100%;
+}
+/* background-color: rgba(25, 27, 0, 0.815) */
+.about-page {
+  width: 65%;
+  height: 80%;
+  min-height: 640px;
+  background-color: rgba(25, 27, 0, 0.815);
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 2;
+}
+.media-page {
+  width: 65%;
+  height: 100%;
+  min-height: 640px;
+  background-color: transparent;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 2;
+}
+.blur {
+  filter: blur(13px);
+  -webkit-filter: blur(10 px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  width: 65%;
+  height: 80%;
+
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+#about-title {
+  /* text-align: right; */
+
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  -o-filter: blur(0px);
+  filter: blur(0px);
+}
+#about-sep {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  line-height: 0%;
+  /* text-align: right; */
+}
+#about-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  /* width: 30%; */
+  /* margin-left: 550px;*/
+}
+#about-text .ui.button {
+  color: white;
+  width: 30%;
+}
+#about-text .ui.button:hover {
+  color: black;
+}
+#about-text .ui.button:active {
+  color: black;
+}
+#page-select {
+  margin: 50px;
+  margin-top: 0;
+}
+.ui.inverted.olive.active.button {
+  color: black !important;
+}
+.booking {
+  flex-direction: column;
+  text-align: center;
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+}
+.booking .ui.form {
+  height: 100% !important;
+}
+.booking input {
+  width: 300px !important;
+}
+.booking textarea {
+  width: 300px !important;
+}
+.booking .ui.form label {
+  color: white !important;
+}
+.booking #subject {
+  height: 1%;
+}
+#details {
+  height: 250px;
 }

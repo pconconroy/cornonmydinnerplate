@@ -4,6 +4,13 @@ import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import {Login, Signup, UserHome} from './components'
 import {me} from './store'
+import Home from './components/home'
+import About from './components/about'
+import Media from './components/media'
+import Music from './components/music'
+import Merchandise from './components/merchandise'
+import Booking from './components/booking'
+import Background from './components/background'
 
 /**
  * COMPONENT
@@ -21,14 +28,16 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-        {isLoggedIn && (
-          <Switch>
-            {/* Routes placed here are only available after logging in */}
-            <Route path="/home" component={UserHome} />
-          </Switch>
-        )}
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/media" component={Media} />
+        <Route path="/music" component={Music} />
+        <Route path="/merchandise" component={Merchandise} />
+        <Route path="/booking" component={Booking} />
+        <Route path="/" component={Home} />
+
         {/* Displays our Login component as a fallback */}
-        <Route component={Login} />
+        <Route component={Booking} />
       </Switch>
     )
   }
