@@ -19,7 +19,7 @@ export const fetchProducts = () => async dispatch => {
   }
 }
 
-export const myReducer = (state = initialState, action) => {
+export const myReducer = (state = defaultProducts, action) => {
   switch (action.type) {
     case GET_PRODUCTS:
       return action.products
