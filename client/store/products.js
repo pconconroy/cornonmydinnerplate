@@ -8,7 +8,8 @@ const getProducts = products => ({type: GET_PRODUCTS, products})
 export const fetchProducts = () => async dispatch => {
   try {
     const headers = {
-      Authorization: 'Basic bnY1MzZ5bWEtNWN2bC1qNnR6OmF5YnYtOTVqYzh5bGdkZnVs'
+      Authorization: 'Basic cG9xOGFyZWctdnlkeS05ZWdqOnpqMjQtbTc5NzdsMTczdTVo',
+      crossDomain: true
     }
     const {data} = await axios.get(
       'https://api.printful.com/store/products?status=all',
